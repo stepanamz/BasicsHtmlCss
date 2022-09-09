@@ -4,7 +4,9 @@ body{
 font-size: 16px;
 font-family: 'Roboto', sans-serif;
 font-weight: normal; 
-background-color:aliceblue;
+/* background-color:aliceblue; */
+background: url(https://phonoteka.org/uploads/posts/2022-02/1643902295_72-phonoteka-org-p-ochen-svetlii-fon-76.jpg) no-repeat;
+background-size: 100% 100%;
 color: #0f141e;
 }
 
@@ -22,6 +24,14 @@ color: #0f141e;
 
 .info {
     margin-bottom: 20px;
+    display: flex;
+    
+}
+
+.info-text {
+
+        margin-left: 40px;
+
 }
 
 .info-text p{
@@ -29,6 +39,8 @@ color: #0f141e;
     font-weight: bold;
     color: #787b81;
     margin: 0px;
+    padding-bottom: 10px;
+    
 }
 
 .info-text h4 {
@@ -39,6 +51,15 @@ a{
     text-decoration: none;
     color: grey;
     
+}
+
+.links {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.links h4{
+    margin: 10px;
 }
 
 a:hover {
@@ -61,6 +82,7 @@ a:active {
       border-radius: 20px;
     padding: 10px 20px;
     margin-bottom: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.20);
 }
 
 .bg-yellow {
@@ -90,3 +112,98 @@ a:active {
     padding: 14px;
     color: darksalmon;
 }
+
+
+.lists {
+    padding: 0 20px;
+}
+
+.lists li {
+    color:dimgray;
+    margin-bottom: 10px;
+    border-bottom: 1px solid grey;
+    
+}
+
+.table {
+    width: 100%;
+    
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2), .table td:nth-child(3) {
+    color: dimgray;
+   
+}
+
+.form h2{
+    text-align: center;
+
+}
+
+.form-row {
+margin-bottom: 10px;
+display: flex;
+}
+
+.form-row .form-group{
+     
+    margin-right: 20px;
+    width: 50%;
+}
+
+.form-row .form-group:last-child {
+
+    margin-right: 0;
+
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: dimgray;
+    
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px 0;
+    outline: none;
+    font-family: inherit;
+}
+
+
+@media (max-width: 650px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+
+    .ava{
+        box-shadow: 5px 5px 14px rgba(0, 0, 0, 0.40);
+        width: 200px;
+        border-radius: 20px;
+    }
+
+    .form-row {
+        display: block;
+        }
+
+        .form-row .form-group{
+
+            width: 100%;
+            margin-right: 0;
+            margin-bottom: 10px;
+        }
+
+}
+
