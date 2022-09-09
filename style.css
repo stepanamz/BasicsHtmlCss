@@ -35,6 +35,24 @@ color: #0f141e;
     margin-bottom: 10px;
 }
 
+a{
+    text-decoration: none;
+    color: grey;
+    
+}
+
+a:hover {
+        color:white;
+        text-shadow:  0 0 0.2em blue;
+        text-decoration: underline;
+
+}
+
+a:active {
+    color: skyblue;
+}
+
+
 .card h3 {
     margin-bottom: 10px;
 }
@@ -53,3 +71,22 @@ color: #0f141e;
     background: #ffe5e5;
 }
 
+.btn {
+    font-family: inherit;
+    color: whitesmoke;
+    background: #0f141e;
+    border: none;
+    padding: 15px;
+}
+
+.btn:hover {
+    opacity: .9;
+    cursor: pointer;
+    box-shadow: 5px 5px 14px rgba(0, 0, 0, 0.25);
+    
+}
+
+.btn:active {
+    padding: 14px;
+    color: darksalmon;
+}
